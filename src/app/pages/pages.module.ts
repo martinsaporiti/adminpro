@@ -10,12 +10,17 @@ import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes';
 
 
+// Temporal
+import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+
+
 @NgModule({
     declarations:[
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        PagesComponent
+        PagesComponent, 
+        IncrementadorComponent
     ],
     exports:[
         DashboardComponent,
