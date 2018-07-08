@@ -11,7 +11,7 @@ export class ProfileComponent implements OnInit {
 
 
   usuario : Usuario
-  imagenSubir : FIle;
+  imagenSubir : File;
   imagenTemp : string;
 
   constructor(public _usuarioService : UsuarioService) {
