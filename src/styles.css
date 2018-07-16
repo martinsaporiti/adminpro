@@ -21,6 +21,10 @@
     width: 70px
 }
 
+.w-120 {
+    width: 120px
+}
+
 .fondo-negro {
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
