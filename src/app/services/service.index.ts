@@ -1,8 +1,8 @@
-import { HospitalService } from './hospital/hospital.service';
+
 
 export { AdminGuard } from './guards/admin.guard';
 export { LoginGuardGuard } from './guards/login-guard.guard';
-
+export { VerificatokenGuard } from './guards/verificatoken.guard';
 
 export { SettingsService } from './settings/settings.service';
 export { SharedService } from './shared/shared.service';
@@ -11,6 +11,7 @@ export { UsuarioService } from './usuario/usuario.service';
 export { SubirArchivoService } from './subir-archivo/subir-archivo.service';
 export { HospitalService } from './hospital/hospital.service'
 export { MedicoService } from './medico/medico.service';
+
 
 
 
